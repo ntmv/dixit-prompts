@@ -4,14 +4,14 @@ An AI-powered tool designed to generate imaginative prompts for abstract illustr
 
 ## 🌟 Features
 - Extracts visual features from card images using **CLIP** (Contrastive Language–Image Pretraining).
-- Generates creative, storytelling prompts with **GPT-2**, fine-tuned for the abstract art cards from the Dixit game
+- Generates creative, storytelling prompts with **GPT-3**, fine-tuned for the abstract art cards from the Dixit game
 - Incorporates **Reinforcement Learning with Human Feedback (RLHF)** to refine prompts based on user input 
 - Interactive web app using **Streamlit**
 
 ## 🛠️ Tools and Technologies
 ### Machine Learning
-- **PyTorch**: Backbone framework for implementing CLIP and GPT-2 models.
-- **Hugging Face Transformers**: For working with pre-trained models like CLIP and GPT-2.
+- **PyTorch**: Backbone framework for implementing CLIP and GPT-3 models.
+- **Hugging Face Transformers**: For working with pre-trained models like CLIP and GPT-3.
 - **Stable-Baselines3**: For integrating reinforcement learning to enhance prompt generation.
 
 ### Computer Vision
@@ -19,7 +19,7 @@ An AI-powered tool designed to generate imaginative prompts for abstract illustr
 - **OpenCV**: For preprocessing images, including resizing, normalization, and augmentation.
 
 ### Natural Language Processing
-- **GPT-2**: To generate abstract and creative prompts.
+- **GPT-3**: To generate abstract and creative prompts.
 - **SpaCy**: For optional text preprocessing.
 
 ### Deployment
@@ -38,7 +38,7 @@ An AI-powered tool designed to generate imaginative prompts for abstract illustr
 ## 📚 Workflow
 1. **Image Preprocessing**: Resize and normalize card images using OpenCV.
 2. **Feature Extraction**: Use CLIP to generate image embeddings representing abstract visual features.
-3. **Prompt Generation**: Pass embeddings into GPT-2 to create creative, storytelling prompts.
+3. **Prompt Generation**: Pass embeddings into GPT-3 to create creative, storytelling prompts.
 4. **Feedback Loop**: Collect human ratings for generated prompts and use RLHF to refine the model.
 5. **Deployment**: Package the workflow into a web app or API using Streamlit or Flask.
 
