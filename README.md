@@ -4,14 +4,14 @@ An AI-powered tool designed to generate imaginative prompts for abstract illustr
 
 ## 🌟 Features
 - Extracts visual features from card images using **CLIP** (Contrastive Language–Image Pretraining).
-- Generates creative, storytelling prompts with **GPT-3**, fine-tuned for the abstract art cards from the Dixit game
+- Generates creative, storytelling prompts with **GPT-2**, fine-tuned for the abstract art cards from the Dixit game
 - Incorporates **Reinforcement Learning with Human Feedback (RLHF)** to refine prompts based on user input 
 - Interactive web app using **Streamlit**
 
 ## 🛠️ Tools and Technologies
 ### Machine Learning
-- **PyTorch**: Backbone framework for implementing CLIP and GPT-3 models.
-- **Hugging Face Transformers**: For working with pre-trained models like CLIP and GPT-3.
+- **PyTorch**: Backbone framework for implementing CLIP and GPT-2 models.
+- **Hugging Face Transformers**: For working with pre-trained models like CLIP and GPT-2.
 - **Stable-Baselines3**: For integrating reinforcement learning to enhance prompt generation.
 
 ### Computer Vision
@@ -19,7 +19,7 @@ An AI-powered tool designed to generate imaginative prompts for abstract illustr
 - **OpenCV**: For preprocessing images, including resizing, normalization, and augmentation.
 
 ### Natural Language Processing
-- **GPT-3**: To generate abstract and creative prompts.
+- **GPT-2**: To generate abstract and creative prompts.
 - **SpaCy**: For optional text preprocessing.
 
 ### Deployment
